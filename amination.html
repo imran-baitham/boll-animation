@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .section-one {
+            background-color: #2d3436;
+        }
+        
+        div {
+            display: flex;
+            height: 100vh;
+            text-align: center;
+            justify-content: center;
+            padding-top: 35%;
+        }
+        
+        .div-father {
+            background-color: #2d3436;
+            border-bottom: 10px solid white;
+            height: 7.6vh;
+        }
+        
+        div ul {
+            display: flex;
+        }
+        
+        div ul li {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            margin: 0% 10px;
+            list-style: none;
+            border-radius: 50%;
+            animation: bouncy 1s linear infinite;
+        }
+        
+        @keyframes bouncy {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-150px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+        
+        ul li:nth-child(1) {
+            animation-delay: 0.2s;
+            background-color: #fdcbce;
+        }
+        
+        ul li:nth-child(2) {
+            animation-delay: 0.7s;
+            background-color: #ff7675;
+            background-color: ;
+        }
+        
+        ul li:nth-child(3) {
+            animation-delay: 0.4s;
+            background-color: #81ecec;
+            background-color: ;
+        }
+        
+        ul li:nth-child(4) {
+            animation-delay: 0.8s;
+            background-color: #55efc4;
+        }
+        
+        ul li:nth-child(5) {
+            animation-delay: 0.5s;
+            background-color: #fd79a8;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-one">
+        <div>
+            <div class="div-father">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </div>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
